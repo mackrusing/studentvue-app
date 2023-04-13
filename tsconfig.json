@@ -1,0 +1,7 @@
+{
+    "extends": ["./_strict.tsconfig.json", "@tsconfig/node18/tsconfig.json"],
+    "compilerOptions": {
+        "rootDir": "src/",
+        "outDir": "out/"
+    }
+}

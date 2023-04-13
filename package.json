@@ -1,0 +1,19 @@
+{
+  "name": "studentvue-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "out/app.js",
+  "scripts": {
+    "test": "nodemon out/main.js",
+    "start": "npm run build && node out/main.js",
+    "build": "npx tsc -p tsconfig.json",
+    "watch-ts": "npx tsc -w -p tsconfig.json"
+  },
+  "author": "Mack Rusing",
+  "license": "ISC",
+  "devDependencies": {
+    "@tsconfig/node18": "^1.0.1",
+    "nodemon": "^2.0.22",
+    "typescript": "^5.0.4"
+  }
+}
